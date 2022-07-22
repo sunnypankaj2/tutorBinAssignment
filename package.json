@@ -1,12 +1,13 @@
 {
-  "name": "login_",
+  "name": "tutorBinAssignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a tutorBin assignment",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node server.js",
+    "devStart":"nodemon server.js"
   },
-  "author": "",
+  "author": "Pankaj Chauhan",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
